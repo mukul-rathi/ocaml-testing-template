@@ -4,7 +4,7 @@ script:
   - bash -ex .travis-ocaml.sh
   - eval $(opam config env)
   - make install
-  - dune build @fmt
+  - make lint
   - make test
   - make coverage
   - bisect-ppx-report send-to Coveralls
