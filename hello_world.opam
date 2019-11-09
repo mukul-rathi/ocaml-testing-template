@@ -1,6 +1,6 @@
 opam-version: "2.0"
 synopsis: "A template for Ocaml Tooling"
-version: "0.1"
+version: "0.2"
 maintainer: "msr45@cam.ac.uk"
 authors: ["Mukul Rathi"]
 homepage: "https://github.com/mukul-rathi/ocaml-testing-template"
@@ -14,4 +14,5 @@ depends: [
   "qcheck"
   "qcheck-alcotest"
   "alcotest"
+  "odoc"
 ]
