@@ -1,3 +1,2 @@
-(lang dune 1.1)
+(lang dune 2.0)
 (name hello_world)
-(using fmt 1.2)
