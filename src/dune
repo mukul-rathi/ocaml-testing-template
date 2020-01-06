@@ -1,5 +1,5 @@
 (library
- (public_name hello_world)
+ (public_name lib)
  (preprocess
   (pps bisect_ppx --conditional))
  (lint
