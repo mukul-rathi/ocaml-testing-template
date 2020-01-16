@@ -3,7 +3,6 @@
     Hello world is a module I'm using to learn fun
     Ocaml build and testing and documentation tools.
 
-    I've made this change to test automatic post commit hook!
 *)
 
 val id : int -> int
