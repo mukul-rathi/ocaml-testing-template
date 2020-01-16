@@ -1,5 +1,6 @@
 (library
-(name test_something)
-(inline_tests)
-(libraries lib)
-(preprocess (pps ppx_jane)))
+ (name test_something)
+ (inline_tests)
+ (libraries lib)
+ (preprocess
+  (pps ppx_jane)))
