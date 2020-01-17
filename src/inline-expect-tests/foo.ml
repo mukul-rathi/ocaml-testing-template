@@ -1,7 +1,11 @@
-let print_hello_world () = print_string "Hello World"
+let gen_hello_world () =
+  let output_str = "Hello World" in
+  print_string output_str;
+  (* insert print statement *)
+  output_str
 
 (* Test in same file as source code *)
 let%expect_test "Test name" =
-  print_hello_world ();
-  (* or equiv code that includes print statements *)
+  (* run src code - here I'm ignoring the output *)
+  ignore (gen_hello_world ());
   [%expect {|Hello World|}]
