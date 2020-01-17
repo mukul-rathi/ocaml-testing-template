@@ -8,12 +8,12 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: cache-{{ checksum "lib.opam" }}
+          key: cache-{{ checksum "hello_world.opam" }}
       - run:
           name: "Install deps"
           command: sudo apt-get install -y m4  && make install
       - save_cache:
-          key: cache-{{ checksum "lib.opam" }}
+          key: cache-{{ checksum "hello_world.opam" }}
           paths:
             - ~/.opam
       - run:
