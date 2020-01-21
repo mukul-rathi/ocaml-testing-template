@@ -2,6 +2,13 @@
 
 [![CircleCI](https://circleci.com/gh/mukul-rathi/ocaml-testing-template.svg?style=svg)](https://circleci.com/gh/mukul-rathi/ocaml-testing-template) [![Coverage Status](https://coveralls.io/repos/github/mukul-rathi/ocaml-testing-template/badge.svg?branch=master)](https://coveralls.io/github/mukul-rathi/ocaml-testing-template?branch=master)
 
+## Tutorials
+
+Accompanying this repo are two tutorials:
+
+- [Dune](https://www.mukulrathi.com/ocaml-tooling-dune/)
+- [OCaml Testing and CI](https://www.mukulrathi.com/ocaml-testing-frameworks/)
+
 ## The Makefile
 
 The Makefile consists of a list of useful commands:
