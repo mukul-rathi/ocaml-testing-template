@@ -1,9 +1,7 @@
 (** Hello World
 
-    Hello world is a module I'm using to learn fun
-    Ocaml build and testing and documentation tools.
-
-*)
+    Hello world is a module I'm using to learn fun Ocaml build and testing and
+    documentation tools. *)
 
 val id : int -> int
 (** [id a] returns the result [a] *)
