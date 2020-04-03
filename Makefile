@@ -1,4 +1,5 @@
 default:
+	opam update
 	opam install . --deps-only
 	dune build
 
@@ -6,6 +7,7 @@ build:
 	dune build
 
 install:
+	opam update
 	opam install --yes . --deps-only
 
 lint:

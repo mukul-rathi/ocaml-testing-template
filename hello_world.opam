@@ -1,5 +1,5 @@
 opam-version: "2.0"
-synopsis: "A template for Ocaml Tooling"
+synopsis: "A template for OCaml Tooling"
 version: "1.0"
 maintainer: "mukul.rathi@gmail.com"
 authors: ["Mukul Rathi"]
@@ -10,17 +10,13 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "dune" {= "2.0.0"}
+  "dune" { >= "2.0.0"}
   "qcheck" {= "0.12"}
   "qcheck-alcotest" {= "0.12"}
   "alcotest"  {= "0.8.5"}
   "odoc"  {= "1.4.2"}
   "ocamlformat" {="0.12"}
-  "bisect_ppx" {dev & >= "2.0.0"}
+  "bisect_ppx" {= "2.2.0"}
   "ppx_jane"{= "v0.12.0"}
   "reason"  { ="3.5.2"}
-]
-
-pin-depends: [
-  ["bisect_ppx.git" "git+https://github.com/aantron/bisect_ppx.git"]
 ]
