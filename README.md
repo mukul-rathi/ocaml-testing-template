@@ -6,8 +6,8 @@
 
 Accompanying this repo are two tutorials:
 
-- [Dune](https://www.mukulrathi.com/ocaml-tooling-dune/)
-- [OCaml Testing and CI](https://www.mukulrathi.com/ocaml-testing-frameworks/)
+- [Dune](https://mukulrathi.netlify.app/ocaml-tooling-dune/)
+- [OCaml Testing and CI](https://mukulrathi.netlify.app/ocaml-testing-frameworks/)
 
 ## The Makefile
 
